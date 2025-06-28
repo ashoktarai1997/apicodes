@@ -60,7 +60,7 @@ with open("Data1.csv") as file:
 import json
 with open('ashok.json') as f:
     data = json.load(f)
-    print(data)
+    print("this is very personal data",data)
     print(type(data))
     print(data ["course"][1]['title'])
     print(data["dashboard"])
